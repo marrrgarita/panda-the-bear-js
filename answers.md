@@ -31,12 +31,28 @@ $('h1').css('font-family', 'monospace');
 
 <!-- Find a way to select the round icons in the sidebar and then change their colour. -->
 
-Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
+$('.action-icon-bg').css('color', 'black');
 
-Change the placeholder attribute of the message field to "state your business".
+<!-- Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself". -->
 
-Give the name field a "value" attribute of "your nemesis".
+$('#name').attr('placeholder', 'Identify Yourself');
 
-Change the value attribute of the email field to "koalathebear@gmail.com".
 
-Change the value of the submit button on the contact form to "En garde!".
+<!-- Change the placeholder attribute of the message field to "state your business". -->
+
+$('#message').attr('placeholder', 'State Your Business');
+
+
+<!-- Give the name field a "value" attribute of "your nemesis". -->
+
+$('#name').attr('value', 'Your Nemesis');
+
+
+<!-- Change the value attribute of the email field to "koalathebear@gmail.com". -->
+
+$('#email').attr('value', 'koalathebear@gmail.com');
+
+
+<!-- Change the value of the submit button on the contact form to "En garde!". -->
+
+$('#submit').attr('value', 'En Garde');
