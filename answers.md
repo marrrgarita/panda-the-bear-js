@@ -56,3 +56,11 @@ $('#email').attr('value', 'koalathebear@gmail.com');
 <!-- Change the value of the submit button on the contact form to "En garde!". -->
 
 $('#submit').attr('value', 'En Garde');
+
+<!-- We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button  -->
+
+$('#submit').attr('disabled','disabled');
+
+<!-- We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use empty() to do this. -->
+
+$('.bio-info').empty()
