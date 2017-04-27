@@ -23,9 +23,13 @@ $('body').css('background-color', 'cadetblue');
 
 <!-- Change the colour used by the highlight class. -->
 
-Change the font family of the h1 to 'monospace'.
+$('.highlight').css('background-color', 'darkgrey');
 
-Find a way to select the round icons in the sidebar and then change their colour.
+<!-- Change the font family of the h1 to 'monospace'. -->
+
+$('h1').css('font-family', 'monospace');
+
+<!-- Find a way to select the round icons in the sidebar and then change their colour. -->
 
 Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
 
